@@ -12,6 +12,21 @@ Padrões de projeto são soluções conceituais para problemas recorrentes no de
 
 ---
 
+## 📐 Princípios SOLID
+
+Antes de mergulhar nos padrões, é fundamental entender os princípios **SOLID**. Eles formam a base da orientação a objetos limpa e são a "espinha dorsal" para a correta implementação dos padrões de projeto.
+
+*   **S** - Single Responsibility (Responsabilidade Única)
+*   **O** - Open/Closed (Aberto/Fechado)
+*   **L** - Liskov Substitution (Substituição de Liskov)
+*   **I** - Interface Segregation (Segregação de Interface)
+*   **D** - Dependency Inversion (Inversão de Dependência)
+
+> Confira os exemplos práticos em: [`src/SOLID/`](./src/SOLID/)
+e também a [`documentação SOLID`](./src/SOLID/README.md)
+
+---
+
 ## 🏗️ Catálogo de Padrões
 
 O conteúdo está organizado conforme a classificação clássica, com exemplos práticos baseados na estrutura:
@@ -49,7 +64,8 @@ A documentação dos padrões neste repositório aborda os seguintes pontos, ess
 src/
 ├── Behavioural/  # Padrões de Comportamento
 ├── Creation/     # Padrões Criacionais
-└── Structural/   # Padrões Estruturais
+├── Structural/   # Padrões Estruturais
+└── SOLID/        # Princípios fundamentais de design de código limpo
 ```
 
 ---
